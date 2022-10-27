@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79E9188F290A7989004D76A7 /* tryy21App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E9188E290A7989004D76A7 /* tryy21App.swift */; };
+		79E91891290A7989004D76A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E91890290A7989004D76A7 /* ContentView.swift */; };
+		79E91893290A798A004D76A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E91892290A798A004D76A7 /* Assets.xcassets */; };
+		79E91897290A798A004D76A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E91896290A798A004D76A7 /* Preview Assets.xcassets */; };
+		79E918A1290A798A004D76A7 /* tryy21Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E918A0290A798A004D76A7 /* tryy21Tests.swift */; };
+		79E918AB290A798A004D76A7 /* tryy21UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E918AA290A798A004D76A7 /* tryy21UITests.swift */; };
+		79E918AD290A798A004D76A7 /* tryy21UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E918AC290A798A004D76A7 /* tryy21UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79E9189D290A798A004D76A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79E91883290A7989004D76A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79E9188A290A7989004D76A7;
+			remoteInfo = tryy21;
+		};
+		79E918A7290A798A004D76A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79E91883290A7989004D76A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79E9188A290A7989004D76A7;
+			remoteInfo = tryy21;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79E9188B290A7989004D76A7 /* tryy21.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tryy21.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E9188E290A7989004D76A7 /* tryy21App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tryy21App.swift; sourceTree = "<group>"; };
+		79E91890290A7989004D76A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		79E91892290A798A004D76A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79E91894290A798A004D76A7 /* tryy21.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = tryy21.entitlements; sourceTree = "<group>"; };
+		79E91896290A798A004D76A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		79E9189C290A798A004D76A7 /* tryy21Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tryy21Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E918A0290A798A004D76A7 /* tryy21Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tryy21Tests.swift; sourceTree = "<group>"; };
+		79E918A6290A798A004D76A7 /* tryy21UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tryy21UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E918AA290A798A004D76A7 /* tryy21UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tryy21UITests.swift; sourceTree = "<group>"; };
+		79E918AC290A798A004D76A7 /* tryy21UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tryy21UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79E91888290A7989004D76A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E91899290A798A004D76A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E918A3290A798A004D76A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79E91882290A7989004D76A7 = {
+			isa = PBXGroup;
+			children = (
+				79E9188D290A7989004D76A7 /* tryy21 */,
+				79E9189F290A798A004D76A7 /* tryy21Tests */,
+				79E918A9290A798A004D76A7 /* tryy21UITests */,
+				79E9188C290A7989004D76A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79E9188C290A7989004D76A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79E9188B290A7989004D76A7 /* tryy21.app */,
+				79E9189C290A798A004D76A7 /* tryy21Tests.xctest */,
+				79E918A6290A798A004D76A7 /* tryy21UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79E9188D290A7989004D76A7 /* tryy21 */ = {
+			isa = PBXGroup;
+			children = (
+				79E9188E290A7989004D76A7 /* tryy21App.swift */,
+				79E91890290A7989004D76A7 /* ContentView.swift */,
+				79E91892290A798A004D76A7 /* Assets.xcassets */,
+				79E91894290A798A004D76A7 /* tryy21.entitlements */,
+				79E91895290A798A004D76A7 /* Preview Content */,
+			);
+			path = tryy21;
+			sourceTree = "<group>";
+		};
+		79E91895290A798A004D76A7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				79E91896290A798A004D76A7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		79E9189F290A798A004D76A7 /* tryy21Tests */ = {
+			isa = PBXGroup;
+			children = (
+				79E918A0290A798A004D76A7 /* tryy21Tests.swift */,
+			);
+			path = tryy21Tests;
+			sourceTree = "<group>";
+		};
+		79E918A9290A798A004D76A7 /* tryy21UITests */ = {
+			isa = PBXGroup;
+			children = (
+				79E918AA290A798A004D76A7 /* tryy21UITests.swift */,
+				79E918AC290A798A004D76A7 /* tryy21UITestsLaunchTests.swift */,
+			);
+			path = tryy21UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79E9188A290A7989004D76A7 /* tryy21 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E918B0290A798A004D76A7 /* Build configuration list for PBXNativeTarget "tryy21" */;
+			buildPhases = (
+				79E91887290A7989004D76A7 /* Sources */,
+				79E91888290A7989004D76A7 /* Frameworks */,
+				79E91889290A7989004D76A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tryy21;
+			productName = tryy21;
+			productReference = 79E9188B290A7989004D76A7 /* tryy21.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79E9189B290A798A004D76A7 /* tryy21Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E918B3290A798A004D76A7 /* Build configuration list for PBXNativeTarget "tryy21Tests" */;
+			buildPhases = (
+				79E91898290A798A004D76A7 /* Sources */,
+				79E91899290A798A004D76A7 /* Frameworks */,
+				79E9189A290A798A004D76A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79E9189E290A798A004D76A7 /* PBXTargetDependency */,
+			);
+			name = tryy21Tests;
+			productName = tryy21Tests;
+			productReference = 79E9189C290A798A004D76A7 /* tryy21Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79E918A5290A798A004D76A7 /* tryy21UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E918B6290A798A004D76A7 /* Build configuration list for PBXNativeTarget "tryy21UITests" */;
+			buildPhases = (
+				79E918A2290A798A004D76A7 /* Sources */,
+				79E918A3290A798A004D76A7 /* Frameworks */,
+				79E918A4290A798A004D76A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79E918A8290A798A004D76A7 /* PBXTargetDependency */,
+			);
+			name = tryy21UITests;
+			productName = tryy21UITests;
+			productReference = 79E918A6290A798A004D76A7 /* tryy21UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79E91883290A7989004D76A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					79E9188A290A7989004D76A7 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					79E9189B290A798A004D76A7 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 79E9188A290A7989004D76A7;
+					};
+					79E918A5290A798A004D76A7 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 79E9188A290A7989004D76A7;
+					};
+				};
+			};
+			buildConfigurationList = 79E91886290A7989004D76A7 /* Build configuration list for PBXProject "tryy21" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79E91882290A7989004D76A7;
+			productRefGroup = 79E9188C290A7989004D76A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79E9188A290A7989004D76A7 /* tryy21 */,
+				79E9189B290A798A004D76A7 /* tryy21Tests */,
+				79E918A5290A798A004D76A7 /* tryy21UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79E91889290A7989004D76A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E91897290A798A004D76A7 /* Preview Assets.xcassets in Resources */,
+				79E91893290A798A004D76A7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E9189A290A798A004D76A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E918A4290A798A004D76A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79E91887290A7989004D76A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E91891290A7989004D76A7 /* ContentView.swift in Sources */,
+				79E9188F290A7989004D76A7 /* tryy21App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E91898290A798A004D76A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E918A1290A798A004D76A7 /* tryy21Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E918A2290A798A004D76A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E918AB290A798A004D76A7 /* tryy21UITests.swift in Sources */,
+				79E918AD290A798A004D76A7 /* tryy21UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79E9189E290A798A004D76A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79E9188A290A7989004D76A7 /* tryy21 */;
+			targetProxy = 79E9189D290A798A004D76A7 /* PBXContainerItemProxy */;
+		};
+		79E918A8290A798A004D76A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79E9188A290A7989004D76A7 /* tryy21 */;
+			targetProxy = 79E918A7290A798A004D76A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		79E918AE290A798A004D76A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79E918AF290A798A004D76A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		79E918B1290A798A004D76A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = tryy21/tryy21.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tryy21/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.tryy21;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79E918B2290A798A004D76A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = tryy21/tryy21.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tryy21/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.tryy21;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79E918B4290A798A004D76A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.tryy21Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tryy21.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tryy21";
+			};
+			name = Debug;
+		};
+		79E918B5290A798A004D76A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.tryy21Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tryy21.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tryy21";
+			};
+			name = Release;
+		};
+		79E918B7290A798A004D76A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.tryy21UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tryy21;
+			};
+			name = Debug;
+		};
+		79E918B8290A798A004D76A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.tryy21UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tryy21;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79E91886290A7989004D76A7 /* Build configuration list for PBXProject "tryy21" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E918AE290A798A004D76A7 /* Debug */,
+				79E918AF290A798A004D76A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E918B0290A798A004D76A7 /* Build configuration list for PBXNativeTarget "tryy21" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E918B1290A798A004D76A7 /* Debug */,
+				79E918B2290A798A004D76A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E918B3290A798A004D76A7 /* Build configuration list for PBXNativeTarget "tryy21Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E918B4290A798A004D76A7 /* Debug */,
+				79E918B5290A798A004D76A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E918B6290A798A004D76A7 /* Build configuration list for PBXNativeTarget "tryy21UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E918B7290A798A004D76A7 /* Debug */,
+				79E918B8290A798A004D76A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79E91883290A7989004D76A7 /* Project object */;
+}
